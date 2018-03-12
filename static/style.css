@@ -1,0 +1,10 @@
+.text-container{
+  display: inline-block;
+  width: 100%;
+  height: ~'calc(100% - 50px)'
+}
+
+.text{
+  width: 100%;
+  height: 100%;
+}
