@@ -5,8 +5,9 @@ var openFile = function (fileId) {
     if (error) return console.error(error)
     file.read((error, result) => {
       if (error) return console.error(error)
-      $('.file-name').text(file.name)
+      $('.file-name').text(' - ' + file.name)
       $('.text').val(result.toString())
+      $('.text').textareaAutoSize()
     })
   })
 }
@@ -34,6 +35,10 @@ $('.text').on('keydown', function (event) {
     if (error) return error
   })
 }) */
+
+$(this).on('ui-view-resize ui-view-maximize ui-view-unmaximize', () =>{
+  $('.text').trigger('input')
+})
 
 if (params && params.command === 'openFile' && params.data) {
   openFile(params.data)

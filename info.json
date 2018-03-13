@@ -33,27 +33,27 @@
 
                     "template" : "main.html",
 
-                    "maxizable" : false,
-                    "resizable" : false,
+                    "maxizable" : true,
+                    "resizable" : true,
 
                     "width"  : {
 
-                        "default" : 600,
-                        "min"     : 0,
+                        "default" : 750,
+                        "min"     : 600,
                         "max"     : 0
 
                     },
 
                     "height" : {
 
-                        "default" : 400,
-                        "min"     : 0,
+                        "default" : 500,
+                        "min"     : 400,
                         "max"     : 0
 
                     },
 
                     "css"    : ["style.css"],
-                    "script" : ["script.js"]
+                    "script" : ["script.js","textarea_autosize.min.js"]
 
                 }
 
