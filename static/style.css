@@ -27,7 +27,7 @@
   width: 100%;
   height: ~'calc(100% - 50px)';
   padding: 0px 60px;
-  box-sizing: content-box;
+  box-sizing: border-box;
 }
 
 .names-container{
