@@ -59,6 +59,52 @@
 
             }
 
+        },
+
+        "mobile" : {
+
+            "primary" : "main",
+            "service" : [],
+            "common"  : {
+
+                "css"    : [],
+                "script" : [],
+                "start"  : []
+
+            },
+
+            "view" : {
+
+                "main" : {
+
+                    "template" : "mainMobile.html",
+
+                    "maxizable" : true,
+                    "resizable" : true,
+
+                    "width"  : {
+
+                        "default" : 750,
+                        "min"     : 600,
+                        "max"     : 0
+
+                    },
+
+                    "height" : {
+
+                        "default" : 500,
+                        "min"     : 400,
+                        "max"     : 0
+
+                    },
+
+                    "css"    : ["styleMobile.css"],
+                    "script" : ["scriptMobile.js"]
+
+                }
+
+            }
+
         }
 
     },
