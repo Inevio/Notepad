@@ -1,0 +1,30 @@
+.ui-header{
+	border-bottom: 1px solid #ececec;
+	text-align: center;
+	height: 80px;
+	.file-name{
+		font-size: 22px;
+		color: black;
+    font-weight: bold;
+		margin: 34px 10px 0;
+	}
+}
+
+.window-container{
+  display: inline-block;
+  width: 100%;
+  height: ~'calc(100% - 81px)';
+  padding: 24px 48px 0px;
+  box-sizing: border-box;
+}
+
+.text{
+  box-sizing: border-box;
+  min-height: 31px;
+  color: #4c5158;
+  font-family: monospace;
+  font-size: 15px;
+  line-height: 1.1em;
+  height: 100%;
+  overflow-y: scroll;
+}
