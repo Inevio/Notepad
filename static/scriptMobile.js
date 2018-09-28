@@ -5,7 +5,7 @@ var openFile = function (fileId) {
     file.read((error, result) => {
       if (error) return console.error(error)
       $('.file-name').text(file.name)
-      $('.text').text(result.toString())
+      $('.text').val(result.toString())
     })
   })
 }
